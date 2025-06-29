@@ -36,3 +36,232 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.login-container {
+  width: 450px;
+  margin: 100px auto;
+  padding: 8px;
+  /* background-color: #fff; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 5px white;
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 10px;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+.loginHead{
+  margin-top: 100px;
+}
+.additional-buttons {
+  margin-top: 20px; /* Space above the buttons */
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  gap: 10px; /* Space between buttons */
+}
+
+.forgot-password-button, .sign-up-button {
+  padding: 10px 15px; /* Add some padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Transition effect */
+  height: 50px;
+}
+
+.forgot-password-button:hover, .sign-up-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+.forgot-password-button {
+  margin-right: 70px; /* Space between Forgot Password and Register */
+}
+.loginBtn{
+  width: 10px;
+}
+
+/* General styling */
+body {
+  background-color: #0d1117;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-card {
+  background-color: #161b22;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  color: #c9d1d9;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #30363d;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #58a6ff;
+}
+
+.password-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #58a6ff;
+  text-decoration: none;
+  margin-bottom: -100px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me input {
+  margin-right: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #238636;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-button:hover {
+  background-color: #2ea043;
+}
+
+.signup-section {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #c9d1d9;
+}
+
+.signup-section a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #30363d;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #8b949e;
+  font-size: 14px;
+}
+
+.social-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button img {
+  margin-right: 10px;
+}
+
+.google {
+  background-color: white;
+  color: #000;
+}
+
+.facebook {
+  background-color: #4267B2;
+  color: white;
+}
+.forgot-pwd{
+  margin-bottom: 20px;
+}
+.main-name{
+  color: #0056b3;
+}
+.button-spacing {
+  margin-right: 20px; /* adjust as needed */
+}

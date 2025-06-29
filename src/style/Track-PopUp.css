@@ -1,0 +1,69 @@
+.track-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .track-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    height: 200px;
+    text-align: center; 
+    align-items: center;
+  }
+  .track-popup-content h3 {
+    margin-top: 0;
+  }
+  .track-popup-content button {
+    margin-top: 15px;
+  }
+.track-button{
+    align-items: center;
+}
+.track-button{
+   margin-left: 100px;
+}
+.button-spacing {
+    margin-right: 100px; /* adjust as needed */
+}
+.hots-button{
+    margin-right: -100px;
+}
+/* Container for the buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the top buttons */
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px; /* Adjust based on button width */
+    margin-bottom: 10px; /* Space between top buttons and bottom button */
+}
+
+/* Space between buttons */
+.button-spacing {
+    margin-right: 10px;
+}
+
+/* Style for the bottom button */
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottom-button button {
+    margin-top: 10px; 
+    margin-right: 15px;
+}

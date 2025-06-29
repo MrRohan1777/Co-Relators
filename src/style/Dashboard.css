@@ -1,0 +1,168 @@
+/* Dashboard.css */
+.dashboard {
+  text-align: center;
+  margin: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  flex-wrap: nowrap; /* Ensure buttons stay on one line */
+}
+
+.styled-button {
+  /* background-color: #007bff;  */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.styled-button:hover {
+  /* background-color: #0056b3; */
+  transform: scale(1.05); /* Slightly grow the button */
+}
+
+.styled-button:active {
+  transform: scale(0.95); /* Slightly shrink the button when clicked */
+}
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1490px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.styled-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+/* Global Styles */
+
+/* Header Styles: Fixed at the top */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Keep the header on top of everything */
+  margin-top: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Content: Below the fixed header */
+.dashboard {
+  margin-top: 80px; /* Push content below the header */
+  text-align: center;
+  padding: 20px;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.styled-button:hover {
+  background-color: #45a049;  
+}
+/* Header Title Styling */
+.header h2 {
+  font-family: 'Bodoni Moda', serif;
+  color: red;
+  font-size: 20px;
+  letter-spacing: 5px; /* Add space between letters */
+  text-align: center;
+  text-transform: uppercase; /* Make text all caps */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+}
+.header {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+}
+
+.logo {
+  margin-right: 700px;
+  width: 180px;
+  height: 100px; /* Maintain aspect ratio */
+  margin-left: 10px; /* Adds space between the title and the logo */
+}
+
+/* Optional: Background style for better visibility */
+.styled-button {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Vertically align text and icon */
+  gap: 1rem; /* Space between icon and text */
+  padding: 0.75rem 1.5rem; /* Adjust button padding for a bigger button */
+  border: none;
+  /* background-color: #007bff; */
+  color: white;
+  font-size: 1.2rem; /* Bigger text size */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: #0056b3;
+}
+
+.button-icon {
+  width: 80; /* Set the width of the icon */
+  height: 70px; /* Set the height of the icon */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio */
+}

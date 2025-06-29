@@ -1,0 +1,26 @@
+/* UserForm.css */
+
+.user-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    margin-top: 20px;
+}

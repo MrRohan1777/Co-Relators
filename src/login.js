@@ -114,7 +114,7 @@ function Login() {
       //  setShowVerifyPopUp(false);
      }
      const verificationCodePopUp = async () =>{
-      alert('staticId---?? '+staticId);
+      // alert('staticId---?? '+staticId);
       const response2 = await axios.post(`verifyMail/${staticId}/${verificationCode}`, {
         
       },
